@@ -1,0 +1,40 @@
+# Source
+src/**/*.stories.*
+src/App.tsx
+src/main.tsx
+
+# Tests
+__tests__
+tests
+*.test.*
+coverage
+vitest.workspace.ts
+.vitest
+
+# Storybook
+.storybook
+storybook-static
+
+# Config
+.editorconfig
+.eslintrc.json
+.eslintrc.js
+.prettierrc
+.prettierignore
+tsconfig.json
+vite.config.ts
+postcss.config.js
+
+# Build tools
+rollup.config.js
+webpack.config.js
+babel.config.js
+
+# Miscellaneous
+.github
+.vscode
+.idea
+.gitignore
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE.md 
