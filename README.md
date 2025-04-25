@@ -13,13 +13,13 @@ This package includes the following components:
 ## Installation
 
 ```bash
-npm install shadcn-storybook
+npm install sameer-shadcn-storybook
 ```
 
 Or with yarn:
 
 ```bash
-yarn add shadcn-storybook
+yarn add sameer-shadcn-storybook
 ```
 
 ## Tailwind CSS Setup
@@ -33,7 +33,7 @@ module.exports = {
     // Include your project files
     "./src/**/*.{js,jsx,ts,tsx}",
     // Include shadcn-storybook components
-    "./node_modules/shadcn-storybook/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/sameer-shadcn-storybook/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {},
@@ -45,7 +45,7 @@ module.exports = {
 Also, import the package's CSS in your main CSS file:
 
 ```css
-@import "shadcn-storybook/src/index.css";
+@import "sameer-shadcn-storybook/src/index.css";
 ```
 
 ## Usage
@@ -53,7 +53,7 @@ Also, import the package's CSS in your main CSS file:
 ### Button
 
 ```jsx
-import { Button } from "shadcn-storybook";
+import { Button } from "sameer-shadcn-storybook";
 
 function MyComponent() {
   return (
@@ -92,8 +92,8 @@ import {
   DialogTitle,
   DialogDescription,
   DialogFooter,
-} from "shadcn-storybook";
-import { Button } from "shadcn-storybook";
+} from "sameer-shadcn-storybook";
+import { Button } from "sameer-shadcn-storybook";
 
 function MyComponent() {
   return (
@@ -131,8 +131,8 @@ import {
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-} from "shadcn-storybook";
-import { Button } from "shadcn-storybook";
+} from "sameer-shadcn-storybook";
+import { Button } from "sameer-shadcn-storybook";
 
 function MyComponent() {
   return (

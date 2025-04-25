@@ -1,11 +1,11 @@
 {
-  "name": "shadcn-storybook",
+  "name": "sameer-shadcn-storybook",
   "version": "0.1.0",
   "description": "Shadcn UI Components with Storybook",
   "private": false,
   "type": "module",
-  "main": "dist/shadcn-storybook.umd.js",
-  "module": "dist/shadcn-storybook.es.js",
+  "main": "dist/sameer-shadcn-storybook.umd.js",
+  "module": "dist/sameer-shadcn-storybook.es.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
