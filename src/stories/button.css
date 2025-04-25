@@ -1,0 +1,65 @@
+.pictory-button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effects using CSS variables */
+.pictory-button:hover {
+  background-color: var(--hover-bg) !important;
+  color: var(--hover-color) !important;
+  border-color: var(--hover-border) !important;
+  opacity: 0.9;
+}
+
+/* Set CSS variables from data attributes */
+.pictory-button {
+  --hover-bg: attr(data-hover-bg);
+  --hover-color: attr(data-hover-color);
+  --hover-border: attr(data-hover-border);
+}
+
+.pictory-button--primary {
+  background-color: #5939a2;
+}
+
+.pictory-button--secondary {
+  background-color: #121212;
+}
+
+.pictory-button--secondary-outline {
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #121212;
+}
+
+.pictory-button--tertiary {
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: transparent;
+  color: #121212;
+}
+
+.pictory-button--small {
+  padding: 10px 16px;
+  font-size: 12px;
+}
+.storybook-button--medium {
+  padding: 11px 20px;
+  font-size: 14px;
+}
+.storybook-button--large {
+  padding: 12px 24px;
+  font-size: 16px;
+}
