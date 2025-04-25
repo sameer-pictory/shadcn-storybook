@@ -3,14 +3,19 @@ import { CodeSnippet } from "@/components/CodeSnippet";
 import { DialogComponent } from "@/components/ui/dialog";
 const buttonVariants = [
   {
-    name: "Default",
-    code: `<Button>Click me</Button>`,
-    component: <Button>Click me</Button>,
+    name: "Primary",
+    code: `<Button variant="primary">Click me</Button>`,
+    component: <Button variant="primary">Primary</Button>,
   },
   {
-    name: "Secondary",
-    code: `<Button variant="secondary">Secondary</Button>`,
-    component: <Button variant="secondary">Secondary</Button>,
+    name: "Primary Gray",
+    code: `<Button variant="primaryGray">Primary Gray</Button>`,
+    component: <Button variant="primaryGray">Primary Gray</Button>,
+  },
+  {
+    name: "Secondary Outlined",
+    code: `<Button variant="secondaryOutlined">Secondary Outlined</Button>`,
+    component: <Button variant="secondaryOutlined">Secondary Outlined</Button>,
   },
   {
     name: "Destructive",
@@ -18,19 +23,9 @@ const buttonVariants = [
     component: <Button variant="destructive">Delete</Button>,
   },
   {
-    name: "Outline",
-    code: `<Button variant="outline">Outline</Button>`,
-    component: <Button variant="outline">Outline</Button>,
-  },
-  {
-    name: "Ghost",
-    code: `<Button variant="ghost">Ghost</Button>`,
-    component: <Button variant="ghost">Ghost</Button>,
-  },
-  {
-    name: "Link",
-    code: `<Button variant="link">Link</Button>`,
-    component: <Button variant="link">Link</Button>,
+    name: "Destructive Outlined",
+    code: `<Button variant="destructiveOutlined">Cancel</Button>`,
+    component: <Button variant="destructiveOutlined">Cancel</Button>,
   },
 ];
 

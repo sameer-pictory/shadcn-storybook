@@ -9,17 +9,16 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        primary: "bg-[#5939A2] text-white hover:bg-[#5939A2]/90",
-        primaryGray: "bg-[#121212] text-white hover:bg-[#121212]/90",
-        secondaryOutlined: "bg-[#10B981] text-white hover:bg-[#10B981]/90",
-        destructive: "bg-[#EF4444] text-white hover:bg-[#EF4444]/90",
+        primary:
+          "bg-[#5939A2] text-white border border-[#5939A2] hover:bg-[#6F47CB] hover:border-[#6F47CB]",
+        primaryGray:
+          "bg-[#121212] text-white border border-[#121212] hover:bg-[#3F3F3F] hover:border-[#3F3F3F]",
+        secondaryOutlined:
+          "bg-white text-[#121212] border border-[#D1D1D1] hover:bg-[#EBEBEB]",
+        destructive:
+          "bg-[#EF4444] text-white border border-[#EF4444] hover:bg-[#dc2626]",
         destructiveOutlined:
-          "bg-transparent border border-[#FBB1C4] text-[#D50B3E] hover:bg-[#EF4444]/90",
-        secondary: "bg-[#10B981] text-white hover:bg-[#10B981]/90",
-        outline:
-          "bg-transparent border border-input text-foreground hover:bg-accent hover:text-accent-foreground",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
+          "bg-transparent text-[#D50B3E] border border-[#FBB1C4] hover:bg-[#FEE2E2] hover:text-[#B91C1C] hover:border-[#EF4444]",
       },
       size: {
         default: "h-10 px-4 py-2",
