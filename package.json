@@ -1,11 +1,11 @@
 {
-  "name": "pictory-ui",
+  "name": "shadcn-storybook",
   "version": "0.1.0",
-  "description": "Pictory UI Components with Storybook",
+  "description": "Shadcn UI Components with Storybook",
   "private": false,
   "type": "module",
-  "main": "dist/pictory-ui.umd.js",
-  "module": "dist/pictory-ui.es.js",
+  "main": "dist/shadcn-storybook.umd.js",
+  "module": "dist/shadcn-storybook.es.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
@@ -26,14 +26,13 @@
     "ui",
     "components",
     "storybook",
-    "pictory",
     "shadcn"
   ],
-  "author": "Pictory",
+  "author": "Sameer Pictory",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/pictory-ui-storybook.git"
+    "url": "git+https://github.com/yourusername/shadcn-storybook.git"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.11",

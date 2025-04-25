@@ -1,6 +1,6 @@
-# Pictory UI Components
+# Shadcn UI Components
 
-A collection of reusable React components for Pictory's UI, built with React, Tailwind CSS, and Storybook.
+A collection of reusable React components built with React, Tailwind CSS, and Storybook.
 
 ## Components
 
@@ -13,13 +13,13 @@ This package includes the following components:
 ## Installation
 
 ```bash
-npm install pictory-ui
+npm install shadcn-storybook
 ```
 
 Or with yarn:
 
 ```bash
-yarn add pictory-ui
+yarn add shadcn-storybook
 ```
 
 ## Tailwind CSS Setup
@@ -32,8 +32,8 @@ module.exports = {
   content: [
     // Include your project files
     "./src/**/*.{js,jsx,ts,tsx}",
-    // Include pictory-ui components
-    "./node_modules/pictory-ui/**/*.{js,jsx,ts,tsx}",
+    // Include shadcn-storybook components
+    "./node_modules/shadcn-storybook/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {},
@@ -45,7 +45,7 @@ module.exports = {
 Also, import the package's CSS in your main CSS file:
 
 ```css
-@import "pictory-ui/src/index.css";
+@import "shadcn-storybook/src/index.css";
 ```
 
 ## Usage
@@ -53,7 +53,7 @@ Also, import the package's CSS in your main CSS file:
 ### Button
 
 ```jsx
-import { Button } from "pictory-ui";
+import { Button } from "shadcn-storybook";
 
 function MyComponent() {
   return (
@@ -92,8 +92,8 @@ import {
   DialogTitle,
   DialogDescription,
   DialogFooter,
-} from "pictory-ui";
-import { Button } from "pictory-ui";
+} from "shadcn-storybook";
+import { Button } from "shadcn-storybook";
 
 function MyComponent() {
   return (
@@ -131,8 +131,8 @@ import {
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-} from "pictory-ui";
-import { Button } from "pictory-ui";
+} from "shadcn-storybook";
+import { Button } from "shadcn-storybook";
 
 function MyComponent() {
   return (

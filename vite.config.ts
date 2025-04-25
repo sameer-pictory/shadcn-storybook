@@ -10,8 +10,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "PictoryUI",
-      fileName: (format) => `pictory-ui.${format}.js`,
+      name: "ShadcnStorybook",
+      fileName: (format) => `shadcn-storybook.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],

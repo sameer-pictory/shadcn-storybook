@@ -35,4 +35,11 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
-*.sw? 
+*.sw?
+
+# npm login
+npm login
+
+npm publish
+
+npm link shadcn-storybook
